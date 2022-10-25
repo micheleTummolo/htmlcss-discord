@@ -196,19 +196,58 @@ a{
 /*Ultima sezione*/
 
     .last_container{
-        height: 800px;
         display: flex;
         align-items: center;
     }
 
     .ultima_sezione{
-        width: 60%;
-        margin: 0 auto;
+        width: 70%;
+        margin: 100px auto;
     }
 
     .verde{
-        background-color: #009b3e;
-        height: 700px;
+        
+    }
+
+    .last_title{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .last_p{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    .last_container img{
+        width: 100%;
+    }
+
+    .margin{
+        width: 52%;
+        margin: 0 auto;
+        background-image: url(../img/stars.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        padding: 33px 32px;
+    }
+
+    .margin h3{
+        font-size: 23px;
+        font-weight: 800;
+    }
+
+    .background_color_purple{
+        background-color: #8EA1E1;
+    }
+
+    a.background_color_purple{
+        margin: 360px;
     }
 
 /*Fine Ultima sezione*/
