@@ -302,22 +302,20 @@ a{
             font-weight: 800;
             line-height: 25px;
         }
-        
+
     /*Fine Footer Top*/
 
     /*Footer Down*/
 
         .footer_down{
             background-color: black;
-            height: 100px;
             display: flex;
             align-items: center;
+            padding: 20px 0px;
         }
 
         .row{
             width: 60%;
-            height: 70px;
-            background-color: skyblue;
             margin: 0 auto;
             display: flex;
             align-items: center;
@@ -325,9 +323,7 @@ a{
         }
 
         .logo2,.bottone{
-            background-color: #ff94a6;
             width: 10%;
-            height: 25px;
             text-align: center;
             padding: 2px;
         }
