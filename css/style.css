@@ -9,6 +9,10 @@
     border: dashed 2px black;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*Inizio Header*/
 
     header{
@@ -26,10 +30,6 @@
             width: 980px;
         }
 
-        nav div{
-
-        }
-
         .logo_container,.login_container{
             width: 20%;
             display: flex;
@@ -39,21 +39,20 @@
             width: 100%;
         }
 
-        .menu{
-            padding-top: 3px;
-            text-align: center;
-        }
-
         .login_container{
             justify-content: right;
         }
 
-        .login_button{
+        .background_color_white{
             background-color: white;
+        }
+
+        .button{
             border-radius: 40px;
             font-size: 14px;
             padding: 9px 16px;
             font-weight: 700;
+            border: none;
         }
 
         div.menu_container{
@@ -68,8 +67,11 @@
             display: flex;
             list-style-type: none;
             justify-content: space-between;
-            color: white;
             font-weight: 600;
+        }
+
+        li a{
+            color: white;
         }
 
     /*Fine Barra di navigazione*/
@@ -81,16 +83,46 @@
 
     .container1{
         height: 400px;
-        background-color: blue;
+        background-image: url("../img/jumbo.png");
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .sezione1{
-        width: 50%;
-        height: 300px;
-        background-color: palevioletred;
+        width: 47%;
+    }
+
+    .main_title{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    .main_p{
+        margin-top: 40px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    .button_container{
+        margin-top: 25px;
+        padding: 0px 107px;
+    }
+
+    .color_white{
+        color: white;
+    }
+
+    .color_black{
+        color: black;
+    }
+
+    .background_color_black{
+        background-color: black;
     }
 
 /*Fine Prima sezione*/
