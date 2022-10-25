@@ -16,7 +16,7 @@ a{
 /*Inizio Header*/
 
     header{
-        background-color: #3161E0;
+        background-color: #2e60e4;
         height: 50px;
         display: flex;
         align-items: center;
@@ -153,9 +153,20 @@ a{
         width: 34%;
     }
 
+    .img1{
+        background-image: url(../img/item1.svg);
+    }
+
+    .img2{
+        background-image: url("../img/item2.svg");
+    }
+
+    .img3{
+        background-image: url(../img/item3.svg);
+    }
+
     .img_section{
         margin-right: 2%;
-        background-image: url(../img/item1.svg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -174,6 +185,10 @@ a{
         font-size: 16px;
         font-weight: 700;
         line-height: 26px;
+    }
+
+    .padding_bottom{
+        padding-bottom: 94px;
     }
 
 /*Fine Sezioni centrali*/
