@@ -82,7 +82,6 @@ a{
 /*Prima sezione*/
 
     .container1{
-        height: 400px;
         background-image: url("../img/jumbo.png");
         background-size: cover;
         display: flex;
@@ -91,6 +90,7 @@ a{
     }
 
     .sezione1{
+        margin: 72px 0px 162px;
         width: 47%;
     }
 
@@ -131,7 +131,6 @@ a{
 /*Sezioni centrali*/
 
     .container{
-        height: 450px;
         display: flex;
         align-items: center;
     }
@@ -141,22 +140,40 @@ a{
     }
 
     .sezione{
-        width: 60%;
-        height: 350px;
+        width: 70%;
         display: flex;
-        margin: 0 auto;
+        margin: 100px auto;
     }
 
-    .azzurro{
-        background-color: #13a7fd;
-        width: 60%;
-        height: 350px;
+    .width_img_section{
+        width: 64%;
     }
 
-    .rosa{
-        background-color: #e657ff;
-        width: 40%;
-        height: 350px;
+    .width_text_section{
+        width: 34%;
+    }
+
+    .img_section{
+        margin-right: 2%;
+        background-image: url(../img/item1.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .text_section{
+        padding-top: 24px;
+    }
+
+    .section_title{
+        font-size: 38px;
+        font-weight: 900;
+    }
+
+    .section_p{
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
     }
 
 /*Fine Sezioni centrali*/
